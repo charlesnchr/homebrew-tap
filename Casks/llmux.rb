@@ -9,6 +9,11 @@ cask "llmux" do
 
   app "LLMux.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/LLMux.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/LLMux",
     "~/Library/Preferences/com.charlesnchr.llmux.plist",
