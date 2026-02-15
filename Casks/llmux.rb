@@ -1,6 +1,6 @@
 cask "llmux" do
-  version "1.1.0"
-  sha256 "dafcb7899533d5dd9c2934098953e1f6008a1df8d033fafbf131c91ea9af73d5"
+  version "1.2.0"
+  sha256 "7d12820493b05a718a81c5035b5a6ea97af38d885f94a60ad58f5c03cad05ce2"
 
   url "https://github.com/charlesnchr/llmux/releases/download/v#{version}/LLMux-#{version}-arm64-mac.zip"
   name "LLMux"
