@@ -9,9 +9,9 @@
 class Bento < Formula
   desc "Menu-bar app for screenshots, window management, clipboard, notes and todos"
   homepage "https://github.com/charlesnchr/bento"
-  url "https://github.com/charlesnchr/bento/releases/download/v0.1.0/Bento-0.1.0.zip", using: :nounzip
-  version "0.1.0"
-  sha256 "5b7823da9ee9e5ad3e4460146fad4ee7b1c60de2aa5c8c28fcd786b8acf9be7e"
+  url "https://github.com/charlesnchr/bento/releases/download/v0.1.1/Bento-0.1.1.zip", using: :nounzip
+  version "0.1.1"
+  sha256 "f504b322dcc53aa02b73e10fd147ac7fe7326667a3e8d33096f489b1ab8e098d"
   license "MIT"
 
   depends_on arch: :arm64
