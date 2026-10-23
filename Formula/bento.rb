@@ -9,9 +9,9 @@
 class Bento < Formula
   desc "Menu-bar app for screenshots, window management, clipboard, notes and todos"
   homepage "https://github.com/charlesnchr/bento"
-  url "https://github.com/charlesnchr/bento/releases/download/v0.1.1/Bento-0.1.1.zip", using: :nounzip
-  version "0.1.1"
-  sha256 "f504b322dcc53aa02b73e10fd147ac7fe7326667a3e8d33096f489b1ab8e098d"
+  url "https://github.com/charlesnchr/bento/releases/download/v0.1.2/Bento-0.1.2.zip", using: :nounzip
+  version "0.1.2"
+  sha256 "4d99b8bc4fab2492dd1d8c0db32b18a4f8a174ac69d894ececa7dd81ffbaeb6e"
   license "MIT"
 
   depends_on arch: :arm64
@@ -26,9 +26,8 @@ class Bento < Formula
     <<~EOS
       Start Bento with:
         open #{opt_prefix}/Bento.app
-      and grant Accessibility and Screen Recording when it asks. To find it in
-      Spotlight or Raycast:
-        mkdir -p ~/Applications && ln -sfn #{opt_prefix}/Bento.app ~/Applications/Bento.app
+      and grant Accessibility and Screen Recording when it asks. It adds an
+      alias to itself in ~/Applications, so Spotlight and Raycast find it.
       Updates: Bento checks daily and installs them from its menu bar menu.
       After a brew upgrade in a terminal, restart Bento from that menu.
       Permission grants carry over.
